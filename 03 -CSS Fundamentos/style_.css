@@ -1,0 +1,133 @@
+body {
+  font-family: sans-serif;
+  color: #444;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
+h1 {
+  font-size: 26px;
+
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+
+  line-height: ;
+}
+
+li {
+  font-size: 20px;
+}
+
+/* footer p {
+  font-size: 16px;
+} */
+
+/*article header p {
+  font-style: italic;
+}*/
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 16pix;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Related {
+  list-style: none;
+}
+
+.main-header,
+aside {
+  background-color: #f7f7f7;
+}
+
+aside {
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(2) {
+  /* color: RED; */
+}
+/* Não funciona pq não é primeiro filho */
+article p:first-child {
+  color: red;
+}
+
+/* styling links */
+
+a:link {
+  text-decoration: none;
+  color: #1098ad;
+}
+
+a:visited {
+  /* color: #777; */
+}
+
+a:hover {
+  text-decoration: underline wavy orangered;
+  font-weight: bold;
+  color: orangered;
+}
+
+a:active {
+  font-style: italic;
+  background-color: black;
+}
+
+/* Resolvido conflitos */
+/* #copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: green;
+} */
